@@ -12,7 +12,7 @@ def inp_student(Student_list,Course_list):
                 temp1 = math.floor(float(input(f"input mark for course id {Course_list[i].course_id} ")))
                 temp2 = Course_list[i].course_id
                 Student_list[Student_list.size-1].inputmark(temp1,temp2)
-                return Student_list    
+            return Student_list    
 def inp_course(Student_list,Course_list):
       if(Student_list.size == 0):
             Course_list = numpy.append(Course_list,Course_info(input("name: "),input("id: ")))
